@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+
+  Created by Aaron Lee on 2021/06/07.
+  
+*/
+
+CFBundleDisplayName = "Rx Boilerplate"; // 앱 이름
+NSCameraUsageDescription = "Camera"; // 카메라 권한
+NSContactsUsageDescription = "Contacts"; // 연락처 권한
+NSMicrophoneUsageDescription = "Microphone"; // 마이크 권한
+NSPhotoLibraryUsageDescription = "Library"; // 우편함 권한

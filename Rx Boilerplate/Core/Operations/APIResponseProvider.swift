@@ -22,9 +22,8 @@ extension APIResponseProvider {
     defer { state = .finished }
 
     self.apiError = apiError
-    self.responseError = responseError
     self.success = success
 
-    onComplete?(apiError, responseError, success)
+    onComplete?(apiError, success)
   }
 }
